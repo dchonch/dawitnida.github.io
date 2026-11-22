@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dawit Nida - Platform & Infrastructure Engineer" />
+    <title>Dawit Nida</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQX83DH41C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-GQX83DH41C');
+    </script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #fafafa;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+        color: #222;
+      }
+
+      .subtitle {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+      }
+
+      .links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        font-size: 0.95rem;
+      }
+
+      .links a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        margin: 2.5rem 0;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ddd;
+      }
+
+      section:last-child {
+        border-bottom: none;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: #222;
+        font-weight: 600;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        color: #555;
+        line-height: 1.7;
+      }
+
+      ul {
+        margin-left: 1.5rem;
+        margin-top: 0.5rem;
+      }
+
+      li {
+        margin-bottom: 0.6rem;
+        color: #555;
+      }
+
+      strong {
+        color: #222;
+        font-weight: 600;
+      }
+
+      /* Print / Save as PDF */
+      @media print {
+        body {
+          background: #fff;
+          color: #000;
+          font-size: 10.5pt;
+        }
+
+        .container {
+          max-width: none;
+          padding: 0;
+        }
+
+        h1 {
+          font-size: 22pt;
+          color: #000;
+        }
+
+        .subtitle {
+          font-size: 12pt;
+          color: #000;
+        }
+
+        .links {
+          margin-bottom: 1.5rem;
+        }
+
+        section {
+          margin: 1.25rem 0;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid #ccc;
+          break-inside: avoid;
+        }
+
+        h2 {
+          font-size: 13pt;
+          color: #000;
+        }
+
+        p,
+        li,
+        strong {
+          color: #000;
+        }
+
+        li {
+          break-inside: avoid;
+          margin-bottom: 0.45rem;
+        }
+
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+
+        @page {
+          margin: 14mm 15mm;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <h1>Dawit Nida</h1>
+      <p class="subtitle">Platform &amp; Infrastructure Engineer</p>
+
+      <!-- Contact Links -->
+      <div class="links">
+        <a href="https://github.com/dchonch">GitHub</a>
+        <a href="https://linkedin.com/in/dawitnida/">LinkedIn</a>
+        <a href="mailto:dchonch@gmail.com">Email</a>
+      </div>
+
+      <!-- About Section -->
+      <section>
+        <h2>About</h2>
+        <p>
+          Platform and infrastructure engineer with <strong>10+ years in software engineering</strong>, most of it in
+          platform, SRE and DevOps roles. AWS and GCP side by side: accounts and
+          networking, IAM, Terraform, Kubernetes on GKE, and the CI/CD and monitoring around them. On the on-call
+          rotation since 2018.
+        </p>
+      </section>
+
+      <!-- Experience Section -->
+      <section>
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <strong>Senior Platform Engineer, Supermetrics</strong> (2026 to present). Platform work for the
+            infrastructure the product teams build on: the Kubernetes platform, and preparing it for agent workflows
+            coming from different departments.
+          </li>
+          <li>
+            <strong>Senior SRE, Supermetrics</strong> (2022 to 2026). Observability and the Kubernetes platform, plus
+            the infrastructure migrations: the Datadog data zone migration, Redis from AWS ElastiCache to self-hosted
+            Redis Enterprise, and Elasticsearch from AWS to the Aiven managed service, along with the Filebeat agents,
+            Logstash pipelines and monitors. Deployed KEDA
+            and Temporal across clusters on GCP and AWS, and replaced the Jenkins agents with GitHub ARC runners. Rolled
+            out Renovate across GitHub Cloud and Enterprise. Looked after the Kubernetes clusters throughout, and stayed
+            on the on-call rotation.
+          </li>
+          <li>
+            <strong>DevOps Engineer, Supermetrics</strong> (2018 to 2022). Built and ran the AWS and GCP foundations:
+            VPCs and peering, security groups, IAM, Packer image pipelines. Ran the ELK stack day to day, and moved DNS
+            from Route 53 to Cloudflare. Built the Jenkins pipelines that later moved to GitHub Actions.
+          </li>
+          <li>
+            <strong>Software Developer, Supermetrics</strong> (2016 to 2018). Built API integrations for the
+            Supermetrics add-on against a long list of third-party APIs.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Skills Section -->
+      <section>
+        <h2>Core Skills</h2>
+        <ul>
+          <li><strong>Cloud:</strong> AWS, GCP, Aiven, Cloudflare</li>
+          <li><strong>Kubernetes:</strong> GKE, Helm, ArgoCD, KEDA, ExternalSecrets, ARC runners, Docker</li>
+          <li><strong>Infrastructure as Code:</strong> Terraform, OpenTofu, Packer, Ansible, Helmfile</li>
+          <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, Renovate, Workload Identity Federation</li>
+          <li><strong>Observability:</strong> Datadog, Elasticsearch, Kibana, Logstash, Prometheus, Grafana</li>
+          <li><strong>Programming:</strong> Python, Bash, Terraform/HCL, PHP</li>
+          <li><strong>AI tooling:</strong> Claude Code plugin authoring, agent skills and subagents, MCP servers, Gemini API</li>
+        </ul>
+      </section>
+
+      <!-- Side projects Section -->
+      <section>
+        <h2>Side projects</h2>
+        <ul>
+          <li>
+            <strong><a href="https://etmdb.com">EtMDB</a></strong>, a film database for Ethiopian cinema, built as a
+            side project with a friend. Django and Python with PostgreSQL and Redis.
+          </li>
+          <li>
+            <strong>Home lab Kubernetes cluster</strong>, on Proxmox, provisioned with Terraform and run as GitOps
+            through ArgoCD, with Ansible for the hosts.
+          </li>
+          <li>
+            <strong>Agent tooling for infrastructure</strong>: a Claude Code plugin packaging skills and subagents for
+            platform work (Terraform review, incident investigation, Renovate triage, ArgoCD inspection, Kubernetes and
+            GitHub Enterprise operations).
+          </li>
+          <li>
+            <strong>Open source</strong>: a GitHub Action that validates Packer templates plus a set of Packer actions,
+            the awesome-packer and awesome-postman lists, the DigitalOcean API Postman collection, and the dependency
+            automation and CI on a public PHP extension, pecl-jsonpath.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education Section -->
+      <section>
+        <h2>Education and certifications</h2>
+        <ul>
+          <li><strong>Master's degree, Åbo Akademi University</strong> (2021). Thesis on modern observability.</li>
+          <li>
+            <strong>Bachelor's degree, Helsinki Metropolia University of Applied Sciences</strong> (2011). Thesis on
+            interoperable online backup software.
+          </li>
+          <li><strong>KCNA, Kubernetes and Cloud Native Associate</strong> (CNCF, 2026)</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>

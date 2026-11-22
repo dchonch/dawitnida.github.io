@@ -1,2 +1,5 @@
-## Dawit Nida
-# dawitnida.github.io
+# Dawit Nida
+
+Personal resume and portfolio site, hosted on GitHub Pages.
+
+**Live:** [dawitnida.com](https://dawitnida.com)
